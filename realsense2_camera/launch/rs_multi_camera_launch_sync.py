@@ -35,10 +35,12 @@ import pathlib
 sys.path.append(str(pathlib.Path(__file__).parent.absolute()))
 import rs_launch
 
-local_parameters = [{'name': 'camera_name1', 'default': 'camera1', 'description': 'camera1 unique name'},
-                    {'name': 'camera_name2', 'default': 'camera2', 'description': 'camera2 unique name'},
-                    {'name': 'camera_namespace1', 'default': 'camera1', 'description': 'camera1 namespace'},
-                    {'name': 'camera_namespace2', 'default': 'camera2', 'description': 'camera2 namespace'},
+local_parameters = [{'name': 'camera_name1', 'default': 'cam1', 'description': 'camera1 unique name'},
+                    {'name': 'camera_name2', 'default': 'cam2', 'description': 'camera2 unique name'},
+                    {'name': 'camera_namespace1', 'default': 'cam1', 'description': 'camera1 namespace'},
+                    {'name': 'camera_namespace2', 'default': 'cam2', 'description': 'camera2 namespace'},
+                    {'name': 'serial_no1', 'default': '_218722270833', 'description': 'camera1 serial number'},
+                    {'name': 'serial_no2', 'default': '_130322272152', 'description': 'camera2 serial number'},
                     {'name': 'depth_module.inter_cam_sync_mode1', 'default': '1', 'description': 'master'},
                     {'name': 'depth_module.inter_cam_sync_mode2', 'default': '2', 'description': 'slave'},
                     ]
